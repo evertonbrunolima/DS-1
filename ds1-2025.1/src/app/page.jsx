@@ -91,14 +91,7 @@ export default function Home() {
       <div className="w-full flex font-bold text-2xl justify-center italic mt-4 mb-16">Bem vindo ao aplicativo de alocação de turmas</div>
 
       <div className="ml-2">
-        <div className="">
-          <label>Importar Arquivo Excel: </label>
-          <input
-            type="file"
-            accept=".xlsx, .xls"
-            onChange={handleFileUpload}
-          />
-        </div>
+      
         <div className="mt-4">
           <Dialog open={dialogOpen2} onOpenChange={setDialogOpen2}>
             <DialogTrigger asChild>
